@@ -14,13 +14,13 @@
 </div>
 <div id="divSearch"><input id="search" type="search" value="search"></div>
 <div><h2>Best seller</h2></div>
-<div class="picture"><img src="1.jpg"></div>
-<div class="picture"><img src="2.jpg"></div>
-<div class="picture"><img src="3.jpg"></div>
-<div class="picture"><img src="4.jpg"></div>
-<div class="picture"><img src="5.jpg"></div>
-<div class="picture"><img src="6.jpg"></div>
-<div class="picture"><img src="7.jpg"></div>
-<div class="picture"><img src="8.jpg"></div>
+<div class="picture"><img src="Images/1.jpg"></div>
+<div class="picture"><img src="Images/2.jpg"></div>
+<div class="picture"><img src="Images/3.jpg"></div>
+<div class="picture"><img src="Images/4.jpg"></div>
+<div class="picture"><img src="Images/5.jpg"></div>
+<div class="picture"><img src="Images/6.jpg"></div>
+<div class="picture"><img src="Images/7.jpg"></div>
+<div class="picture"><img src="Images/8.jpg"></div>
 </body>
 </html>
