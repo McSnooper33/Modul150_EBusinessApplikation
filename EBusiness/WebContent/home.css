@@ -1,0 +1,14 @@
+@charset "ISO-8859-1";
+h1, h2 {
+	text-align: center;
+}
+
+#nav {
+	border-style: solid;
+	margin-right: 250px
+}
+
+#divSearch {
+	margin-left: 1000px;
+	margin-top: -32px;
+}
