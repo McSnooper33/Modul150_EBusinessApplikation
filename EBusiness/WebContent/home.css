@@ -5,10 +5,26 @@ h1, h2 {
 
 #nav {
 	border-style: solid;
-	margin-right: 250px
+	margin-right: 250px;
 }
 
 #divSearch {
 	margin-left: 1000px;
 	margin-top: -32px;
+}
+
+div.picture {
+	margin: 23px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 250px;
+}
+
+div.picture:hover {
+	border: 1px solid #777;
+}
+
+div.picture img {
+	width: 100%;
+	height: auto;
 }
