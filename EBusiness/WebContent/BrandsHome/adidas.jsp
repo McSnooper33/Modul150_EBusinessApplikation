@@ -15,5 +15,9 @@
 <div id="divSearch"><input id="search" type="search" value="search"></div>
 <div><h2>Adidas</h2></div>
 <img src="../Images/shoppingCart.png" id="shoppingCart">
+
+<form name="loginForm" action="../details.jsp" method="post">
+	<input type="submit" value="Details" id="5">
+</form>
 </body>
 </html>
