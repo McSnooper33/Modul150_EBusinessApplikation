@@ -1,3 +1,5 @@
+package maven;
+
 import java.io.Serializable;
 
 public class SneakerBean implements Serializable{
