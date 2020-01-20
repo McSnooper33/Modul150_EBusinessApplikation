@@ -5,7 +5,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>SNEAKERSHOP.CH</title>
-<link href="css/home.css" rel="stylesheet" type="text/css">
+<link href="../css/home.css" rel="stylesheet" type="text/css">
 <script src="jquery-3.4.1.min.js"></script>
 <script src="js/frontend.js"></script>
 </head>
@@ -27,25 +27,28 @@
 			</tr>
 		</table>
 	</div>
-
-
-	<div id="detailPicture"></div>
-	<div id="detailName"></div>
-	<div id="detailDescription"></div>
-	<div id="detailSize">
+	<form action="home.jsp" method="post"></form>
+	<div id="formular">
 		<table>
 			<tr>
-				<td><input type="radio" name="size">38</td>
-				<td><input type="radio" name="size">39</td>
-				<td><input type="radio" name="size">40</td>
-				<td><input type="radio" name="size">41</td>
-				<td><input type="radio" name="size">42</td>
-				<td><input type="radio" name="size">43</td>
-
+				<td>Nachname: <input type="text" name="nachname"></td>
+			</tr>
+			<tr>
+				<td>Vorname: <input type="text" name="vorname"></td>
+			</tr>
+			<tr>
+				<td>Strasse, Nr <input type="text" name="strasse"></td>
+			</tr>
+			<tr>
+				<td>PLZ <input type="text" name="plz"></td>
+			</tr>
+			<tr>
+				<td>Stadt/Dorf<input type="text" name="bezeichnung"></td>
+			</tr>
+			<tr>
+				<td><input type="submit" name="bestellen">Bestellen</td>
 			</tr>
 		</table>
 	</div>
-
-	<button onclick="addProduct()">Hinzufügen</button>
 </body>
 </html>

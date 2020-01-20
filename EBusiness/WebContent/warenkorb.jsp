@@ -37,13 +37,17 @@
 	</table>
 </div>
 
-	<table>
+	<table class="warenkorbListe">
 		<tr>
-			<td><div id="warenkorbPicture"></div>
-			<td><div id="warenkorbBezeichnung"></div></td>
-			<td><div id="warenkorbPreis"></div></td>
+			<td><div id="warenkorbPicture" class="warenkorbListe"></div>
+			<td><div id="warenkorbBezeichnung" class="warenkorbListe"></div></td>
+			<td><div id="warenkorbSize" class="warenkorbListe"></div>
+			<td><div id="warenkorbPreis" class="warenkorbListe"></div></td>
 		</tr>
 	</table>
 	<div id="warenkorbPreisTotal"></div>
+	<form action="bestellen.jsp">
+    <input type="submit" value="bestellen"/>
+</form>
 </body>
 </html>

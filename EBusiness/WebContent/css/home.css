@@ -44,17 +44,26 @@ div.picture img {
 }
 
 #detailPicture {
-	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #detailName {
-	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #detailDescription {
-	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 15px;
 }
 
-#detailSize {
-	
+.warenkorbListe {
+	border-style: solid;
+	float:left;
+	margin: 50px;
 }
