@@ -5,7 +5,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>SNEAKERSHOP.CH</title>
-<link href="home.css" rel="stylesheet" type="text/css">
+<link href="css/home.css" rel="stylesheet" type="text/css">
 <script src="jquery-3.4.1.min.js"></script>
 <script src="js/frontend.js"></script>
 </head>
