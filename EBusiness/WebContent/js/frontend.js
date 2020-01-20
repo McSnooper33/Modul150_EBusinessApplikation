@@ -20,7 +20,9 @@ var currentSneaker = null;
 	
 		fetch('http://localhost:3000/api/getSneakerDetails?detailsId=' + detailsId)
 			.then(function(response){
-				currentSneaker = response.json()[0];
+				return response.json();
+			}).then(function(json){
+				currentSneaker = json;
 				document.getElementById('detailPicture').innerHTML = '<img src="Images/' + currentSneaker.artikelNr + '.jpg" >';
 				document.getElementById('detailName').innerHTML = currentSneaker.artikelName;
 				document.getElementById('detailDescription').innerHTML = currentSneaker.artikelBeschreibung;
@@ -29,10 +31,13 @@ var currentSneaker = null;
 	});
 	
 	function addProduct(){
-		var warenkorb = JSON.parse(Window.localStorage.getItem("warenkorb"));
-		if(typeof warenkorb === "undefined"){
+		console.log(currentSneaker);
+		var warenkorb = JSON.parse(window.localStorage.getItem("warenkorb"));
+		if(warenkorb === null || warenkorb[0] === null){
 			warenkorb = [];
 		}
 		warenkorb.push(currentSneaker);
-		Window.localStorage.setItem("warenkorb", JSON.parse(warenkorb));
+		console.log(warenkorb);
+		window.localStorage.setItem("warenkorb", JSON.parse(warenkorb));
+		
 	}

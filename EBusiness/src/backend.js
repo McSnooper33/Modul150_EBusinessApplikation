@@ -32,8 +32,8 @@ app.get('/api/getSneakerDetails', function (req, res) {
 	let detailsId = req.query.detailsId;
 	con.query("SELECT artikelNr, artikelName, artikelBeschreibung, preis FROM artikel where artikelNr = " + detailsId, function (err, result, fields) {
 		if (err) throw err;
-	    console.log(result);
-	    res.status(200).json(result);
+	    console.log(result[0]);
+	    res.status(200).json(result[0]);
 	    
 	    /*
 	     Result-Format:
