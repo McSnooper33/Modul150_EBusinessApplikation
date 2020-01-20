@@ -27,25 +27,49 @@
 			</tr>
 		</table>
 	</div>
-
-
-	<div id="detailPicture"></div>
-	<div id="detailName"></div>
-	<div id="detailDescription"></div>
-	<div id="detailSize">
-		<table>
+	<br>
+	<br>
+	<br>
+	<table>
+		<tr>
+			<td><div id="detailPicture"></div></td><td><table id="sizeTable">
 			<tr>
 				<td><input type="radio" name="size">38</td>
-				<td><input type="radio" name="size">39</td>
-				<td><input type="radio" name="size">40</td>
-				<td><input type="radio" name="size">41</td>
-				<td><input type="radio" name="size">42</td>
-				<td><input type="radio" name="size">43</td>
-
 			</tr>
-		</table>
-	</div>
+			<tr>
+				<td><input type="radio" name="size">39</td>
+			</tr>
+			<tr>
+				<td><input type="radio" name="size">40</td>
+			</tr>
+			<tr>
+				<td><input type="radio" name="size">41</td>
+			</tr>
+			<tr>
+				<td><input type="radio" name="size">42</td>
+			</tr>
+			<tr>
+				<td><input type="radio" name="size">43</td>
+			</tr>
+			<tr>
+				<td><br><br><br></td>
+			</tr>
+			<tr>
+				<td><div id="detailPrice"></div></td>
+			</tr>
+		</table></td>
+		</tr>
+		<tr>
+			<td><div id="detailName"></div></td>
+		</tr>
+		<tr>
+			<td><div id="detailDescription"></div></td>
+		</tr>
+	</table>
+	
+	<div id="buttonAdd">
 
 	<button onclick="addProduct()">Hinzufügen</button>
+	</div>
 </body>
 </html>

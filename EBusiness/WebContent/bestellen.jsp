@@ -5,7 +5,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>SNEAKERSHOP.CH</title>
-<link href="../css/home.css" rel="stylesheet" type="text/css">
+<link href="css/home.css" rel="stylesheet" type="text/css">
 <script src="jquery-3.4.1.min.js"></script>
 <script src="js/frontend.js"></script>
 </head>
@@ -27,28 +27,35 @@
 			</tr>
 		</table>
 	</div>
-	<form action="home.jsp" method="post"></form>
-	<div id="formular">
-		<table>
+	<br>
+	<br>
+	<br>
+	<form action="home.jsp">
+	<div>
+		<table id="formularTable" class="formular">
 			<tr>
-				<td>Nachname: <input type="text" name="nachname"></td>
+				<td>Nachname:</td><td><input type="text" name="nachname" class="formular"></td>
 			</tr>
 			<tr>
-				<td>Vorname: <input type="text" name="vorname"></td>
+				<td>Vorname:</td><td><input type="text" name="vorname" class="formular"></td>
 			</tr>
 			<tr>
-				<td>Strasse, Nr <input type="text" name="strasse"></td>
+				<td>Strasse, Nr:</td><td><input type="text" name="strasse" class="formular"></td>
 			</tr>
 			<tr>
-				<td>PLZ <input type="text" name="plz"></td>
+				<td>PLZ:</td><td><input type="text" name="plz" class="formular"></td>
 			</tr>
 			<tr>
-				<td>Stadt/Dorf<input type="text" name="bezeichnung"></td>
+				<td>Stadt/Dorf:</td><td><input type="text" name="bezeichnung" class="formular"></td>
 			</tr>
 			<tr>
-				<td><input type="submit" name="bestellen">Bestellen</td>
+				<td><br></td>
+			</tr>
+			<tr>
+				<td><input type="submit" name="bestellen"></td>
 			</tr>
 		</table>
 	</div>
+	</form>
 </body>
 </html>
