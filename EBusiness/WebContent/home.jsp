@@ -7,6 +7,7 @@
 <title>SNEAKERSHOP.CH</title>
 <link href="home.css" rel="stylesheet" type="text/css">
 <script src="jquery-3.4.1.min.js"></script>
+<script src="js/frontend.js"></script>
 </head>
 <body>
 <h1>SNEAKERSHOP.CH</h1>
