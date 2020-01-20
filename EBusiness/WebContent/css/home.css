@@ -45,19 +45,19 @@ div.picture img {
 
 #detailPicture {
 	display: block;
-	margin-left: auto;
+	margin-left: 23px;
 	margin-right: auto;
 }
 
 #detailName {
 	display: block;
-	margin-left: auto;
+	margin-left: 23px;
 	margin-right: auto;
 }
 
 #detailDescription {
 	display: block;
-	margin-left: auto;
+	margin-left: 23px;
 	margin-right: auto;
 	font-size: 15px;
 }
@@ -78,7 +78,7 @@ div.picture img {
 }
 
 #sizeTable {
-	margin-left: 800px;
+	margin-left: 450px;
 }
 
 #buttonAdd {

@@ -28,13 +28,11 @@
 		</table>
 	</div>
 	<br>
-	<br>
-	<br>
 	<table>
 		<tr>
 			<td><div id="detailPicture"></div></td><td><table id="sizeTable">
 			<tr>
-				<td><input type="radio" name="size">38</td>
+				<td>Size:<br><input type="radio" name="size">38</td>
 			</tr>
 			<tr>
 				<td><input type="radio" name="size">39</td>
@@ -55,7 +53,7 @@
 				<td><br><br><br></td>
 			</tr>
 			<tr>
-				<td><div id="detailPrice"></div></td>
+				<td>Price:<div id="detailPrice"></div></td>
 			</tr>
 		</table></td>
 		</tr>
