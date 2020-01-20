@@ -18,7 +18,7 @@ var currentSneaker = null;
 	$(document).ready(function() {
 		var detailsId = getUrlParameter('detailsId');
 	
-		fetch('localhost:3000/api/getSneakerDetails?detailsId=' + detailsId)
+		fetch('http://localhost:3000/api/getSneakerDetails?detailsId=' + detailsId)
 			.then(function(response){
 				currentSneaker = response.json()[0];
 				document.getElementById('detailPicture').innerHTML = '<img src="Images/' + currentSneaker.artikelNr + '.jpg" >';
