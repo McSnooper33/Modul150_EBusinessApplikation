@@ -44,17 +44,45 @@ div.picture img {
 }
 
 #detailPicture {
-	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #detailName {
-	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #detailDescription {
-	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 15px;
 }
 
-#detailSize {
-	
+.warenkorbListe {
+	border-style: solid;
+	float:left;
+	margin: 50px;
+}
+
+.formular {
+	text-align: center;
+}
+
+#formularTable {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#sizeTable {
+	margin-left: 800px;
+}
+
+#buttonAdd {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 }

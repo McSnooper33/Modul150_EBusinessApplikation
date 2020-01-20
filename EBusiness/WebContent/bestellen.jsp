@@ -30,46 +30,32 @@
 	<br>
 	<br>
 	<br>
-	<table>
-		<tr>
-			<td><div id="detailPicture"></div></td><td><table id="sizeTable">
+	<form action="home.jsp">
+	<div>
+		<table id="formularTable" class="formular">
 			<tr>
-				<td><input type="radio" name="size">38</td>
+				<td>Nachname:</td><td><input type="text" name="nachname" class="formular"></td>
 			</tr>
 			<tr>
-				<td><input type="radio" name="size">39</td>
+				<td>Vorname:</td><td><input type="text" name="vorname" class="formular"></td>
 			</tr>
 			<tr>
-				<td><input type="radio" name="size">40</td>
+				<td>Strasse, Nr:</td><td><input type="text" name="strasse" class="formular"></td>
 			</tr>
 			<tr>
-				<td><input type="radio" name="size">41</td>
+				<td>PLZ:</td><td><input type="text" name="plz" class="formular"></td>
 			</tr>
 			<tr>
-				<td><input type="radio" name="size">42</td>
+				<td>Stadt/Dorf:</td><td><input type="text" name="bezeichnung" class="formular"></td>
 			</tr>
 			<tr>
-				<td><input type="radio" name="size">43</td>
+				<td><br></td>
 			</tr>
 			<tr>
-				<td><br><br><br></td>
+				<td><input type="submit" name="bestellen"></td>
 			</tr>
-			<tr>
-				<td><div id="detailPrice"></div></td>
-			</tr>
-		</table></td>
-		</tr>
-		<tr>
-			<td><div id="detailName"></div></td>
-		</tr>
-		<tr>
-			<td><div id="detailDescription"></div></td>
-		</tr>
-	</table>
-	
-	<div id="buttonAdd">
-
-	<button onclick="addProduct()">Hinzufügen</button>
+		</table>
 	</div>
+	</form>
 </body>
 </html>
