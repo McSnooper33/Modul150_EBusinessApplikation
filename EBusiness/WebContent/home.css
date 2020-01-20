@@ -3,14 +3,18 @@ h1, h2 {
 	text-align: center;
 }
 
-#nav {
+#navigation {
 	border-style: solid;
 	margin-right: 250px;
+	margin-left: 23px;
 }
 
-#divSearch {
-	margin-left: 1000px;
-	margin-top: -32px;
+.nav {
+	margin-left: 100px;
+}
+
+#search {
+	margin-left: 500px;
 }
 
 div.picture {
@@ -31,8 +35,12 @@ div.picture img {
 
 
 #shoppingCart {
-	height: 30px;
-	width: 30px;
+	height: 50px;
+	width: 50px;
+}
+
+#divShoppingCart {
+	margin-left: 1430px;
 }
 
 #detailPicture {
