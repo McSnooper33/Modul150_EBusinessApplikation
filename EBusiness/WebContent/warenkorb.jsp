@@ -13,28 +13,19 @@
 <h1>SNEAKERSHOP.CH</h1>
 <div id="divShoppingCart"><img id="shoppingCart" src="Images/shoppingCart.png"/></div>
 <div id="navigation">
-	<table>
-		<tr>
-			<td> 
-				<a class="nav">Home</a>
-			</td>
-			<td>
-				<a class="nav">Adidas</a>
-			</td>
-			<td>
-				<a class="nav">Nike</a>
-			</td>
-			<td>
-				<a class="nav">Converse</a>
-			</td>
-			<td>
-				<a class="nav">Puma</a>
-			</td>
-			<td>
-				<input id="search" class="nav" type="search" value="search">
-			</td>
-		</tr>
-	</table>
+	<div id="navigation">
+		<table>
+			<tr>
+				<td><a class="nav" href="home.jsp">Home</a></td>
+				<td><a class="nav" href="BrandsHome/adidas.jsp">Adidas</a></td>
+				<td><a class="nav" href="BrandsHome/nike.jsp">Nike</a></td>
+				<td><a class="nav" href="BrandsHome/converse.jsp">Converse</a></td>
+				<td><a class="nav" href="BrandsHome/puma.jsp">Puma</a></td>
+				<td><input id="search" class="nav" type="search" value="search">
+				</td>
+			</tr>
+		</table>
+	</div>
 </div>
 
 	<table class="warenkorbListe">

@@ -15,17 +15,19 @@
 		<img id="shoppingCart" src="Images/shoppingCart.png" />
 	</div>
 	<div id="navigation">
+		<div id="navigation">
 		<table>
 			<tr>
-				<td><a class="nav">Home</a></td>
-				<td><a class="nav">Adidas</a></td>
-				<td><a class="nav">Nike</a></td>
-				<td><a class="nav">Converse</a></td>
-				<td><a class="nav">Puma</a></td>
+				<td><a class="nav" href="../home.jsp">Home</a></td>
+				<td><a class="nav" href="adidas.jsp">Adidas</a></td>
+				<td><a class="nav" href="nike.jsp">Nike</a></td>
+				<td><a class="nav" href="converse.jsp">Converse</a></td>
+				<td><a class="nav" href="puma.jsp">Puma</a></td>
 				<td><input id="search" class="nav" type="search" value="search">
 				</td>
 			</tr>
 		</table>
+	</div>
 	</div>
 	<div>
 		<h2>ADIDAS</h2>
