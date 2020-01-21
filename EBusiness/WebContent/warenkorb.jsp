@@ -30,20 +30,18 @@
 			<a href="warenkorb.jsp"><img id="shoppingCart" src="Images/shoppingCart.png" /></a>
 		</div>
 		<div id="navigation">
-			<div id="navigation">
-				<table>
-					<tr>
-						<td><a class="nav" href="home.jsp">Home</a></td>
-						<td><a class="nav" href="BrandsHome/adidas.jsp">Adidas</a></td>
-						<td><a class="nav" href="BrandsHome/nike.jsp">Nike</a></td>
-						<td><a class="nav" href="BrandsHome/converse.jsp">Converse</a></td>
-						<td><a class="nav" href="BrandsHome/puma.jsp">Puma</a></td>
-						<td><input id="search" class="nav" type="search"
-							value="search"></td>
-					</tr>
-				</table>
-			</div>
-		</div>
+		<table>
+			<tr>
+				<td><a class="nav" href="home.jsp">Home</a></td>
+				<td><a class="nav" href="BrandsHome/adidas.jsp">Adidas</a></td>
+				<td><a class="nav" href="BrandsHome/nike.jsp">Nike</a></td>
+				<td><a class="nav" href="BrandsHome/converse.jsp">Converse</a></td>
+				<td><a class="nav" href="BrandsHome/puma.jsp">Puma</a></td>
+				<td><input id="search" class="nav" type="search" value="search">
+				</td>
+			</tr>
+		</table>
+	</div>
 	</div>
 	<div id="warenkorbPreisTotal"></div>
 	<form action="bestellen.jsp">
