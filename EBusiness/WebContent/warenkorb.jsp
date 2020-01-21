@@ -27,7 +27,7 @@
 	<div id="content">
 		<h1>SNEAKERSHOP.CH</h1>
 		<div id="divShoppingCart">
-			<img id="shoppingCart" src="Images/shoppingCart.png" />
+			<a href="warenkorb.jsp"><img id="shoppingCart" src="Images/shoppingCart.png" /></a>
 		</div>
 		<div id="navigation">
 			<div id="navigation">
