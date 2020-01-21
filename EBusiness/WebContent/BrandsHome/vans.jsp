@@ -31,10 +31,10 @@
 		<h2>VANS</h2>
 	</div>
 	<div class="picture" id="12">
-		<a href="details.jsp?detailsId=12"><img src="../Images/12.jpg"></a>
+		<a href="../details.jsp?detailsId=12"><img src="../Images/12.jpg"></a>
 	</div>
 	<div class="picture" id="13">
-		<a href="details.jsp?detailsId=13"><img src="../Images/13.jpg"></a>
+		<a href="../details.jsp?detailsId=13"><img src="../Images/13.jpg"></a>
 	</div>
 </body>
 </html>
