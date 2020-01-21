@@ -8,43 +8,48 @@
 <link href="css/home.css" rel="stylesheet" type="text/css">
 <script src="jquery-3.4.1.min.js"></script>
 <script src="js/frontend.js"></script>
-
-
-<script>
-	var warenkorb = JSON.parse(window.localStorage.getItem("warenkorb"));
-	for (var currentWarenkorbItem = 0; currentWarenkorbItem < warenkorb.size(); currentWarenkorbItem + 1) {
-		$('#content')
-				.append(
-						"<table><tr><td><div id='warenkorbPicture'" + currentWarenkorbItem + " class='warenkorbListe'></div></td></tr><tr><td><div id='warenkorbBezeichnung'" + currentWarenkorbItem + " class='warenkorbListe'></div></td></tr><tr><td><div id='warenkorbPreis'" + currentWarenkorbItem + " class='warenkorbListe'></div></td></tr></table>")
-
-		document.getElementById('warenkorbPicture' + currentWarenkorbItem).innerHTML = '<img src="Images/' + warenkorb[currentWarenkorbItem].getArtikelNr + '.jpg" >';
-		document.getElementById('warenkorbName' + currentWarenkorbItem).innerHTML = warenkorb[currentWarenkorbItem].getArtikelName;
-		document.getElementById('warenkorbPrice' + currentWarenkorbItem).innerHTML = warenkorb[currentWarenkorbItem].getPreis;
-	}
-</script>
 </head>
 <body>
 	<div id="content">
 		<h1>SNEAKERSHOP.CH</h1>
 		<div id="divShoppingCart">
-			<a href="warenkorb.jsp"><img id="shoppingCart" src="Images/shoppingCart.png" /></a>
+			<a href="warenkorb.jsp"><img id="shoppingCart"
+				src="Images/shoppingCart.png" /></a>
 		</div>
 		<div id="navigation">
-		<table>
-			<tr>
-				<td><a class="nav" href="home.jsp">Home</a></td>
-				<td><a class="nav" href="BrandsHome/adidas.jsp">Adidas</a></td>
-				<td><a class="nav" href="BrandsHome/nike.jsp">Nike</a></td>
-				<td><a class="nav" href="BrandsHome/converse.jsp">Converse</a></td>
-				<td><a class="nav" href="BrandsHome/puma.jsp">Puma</a></td>
-				<td><input id="search" class="nav" type="search" value="search">
-				</td>
-			</tr>
-		</table>
+			<table>
+				<tr>
+					<td><a class="nav" href="home.jsp">Home</a></td>
+					<td><a class="nav" href="BrandsHome/adidas.jsp">Adidas</a></td>
+					<td><a class="nav" href="BrandsHome/nike.jsp">Nike</a></td>
+					<td><a class="nav" href="BrandsHome/converse.jsp">Converse</a></td>
+					<td><a class="nav" href="BrandsHome/puma.jsp">Puma</a></td>
+					<td><input id="search" class="nav" type="search"
+						value="search"></td>
+				</tr>
+			</table>
+		</div>
 	</div>
-	</div>
-	<div id="warenkorbPreisTotal"></div>
+	<br>
+	<br>
+	AKTUELLER WARENKORB
+	<br>
+	<table class="warenkorbTableAll">
+		<tr>
+			<td><img src="Images/4.jpg" class="warenkorbTable" class="warenkorbBild" class="warenkorbTableAll"></td><td><div class="warenkorbTable" class="warenkorbTableAll">Ultra Boost</div></td><td><div class="warenkorbTable" class="warenkorbTableAll">250.00</div></td>
+		</tr>
+	</table>
+	<table class="warenkorbTableAll">
+		<tr>
+			<td><img src="Images/12.jpg" class="warenkorbTable" class="warenkorbBild" class="warenkorbTableAll"></td><td><div class="warenkorbTable" class="warenkorbTableAll">Vans Black</div></td><td><div class="warenkorbTable" class="warenkorbTableAll">89.00</div></td>
+		</tr>
+	</table>
+	<br>
+	<br>
+	<div id="warenkorbPreisTotal">Preis Total: 339.00</div>
 	<form action="bestellen.jsp">
+	<br>
+	<br>
 		<input type="submit" value="bestellen" />
 	</form>
 </body>

@@ -14,7 +14,7 @@ h1, h2 {
 }
 
 #search {
-	margin-left: 500px;
+	margin-left: 210px;
 }
 
 div.picture {
@@ -40,7 +40,7 @@ div.picture img {
 }
 
 #divShoppingCart {
-	margin-left: 1430px;
+	margin-left: 1150px;
 }
 
 #detailPicture {
@@ -104,4 +104,22 @@ div.picture img {
 
 #email {
 	margin-left: 20px;
+}
+
+.warenkorbTable {
+	margin-left: 50px;
+}
+
+.warenkorbBild {
+	
+}
+
+.warenkorbBild {
+	height: 150px;
+	width: 150px;
+}
+
+.warenkorbTableAll {
+	border-style: solid;
+	width: 600px;
 }
