@@ -58,8 +58,10 @@
 		<a href="details.jsp?detailsId=8"><img src="Images/8.jpg"></a>
 	</div>
 
-
-
+<div class="footer">
+  <a id="shopName">SNEAKERSHOP.CH</a>
+  <a id="email">sneakershop@gmail.com</a>
+</div>
 </body>
 
 </html>
