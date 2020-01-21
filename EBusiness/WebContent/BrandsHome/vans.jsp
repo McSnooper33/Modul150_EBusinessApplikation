@@ -12,7 +12,7 @@
 <body>
 	<h1>SNEAKERSHOP.CH</h1>
 	<div id="divShoppingCart">
-		<a href="../warenkorb.jsp"><img id="shoppingCart" src="Images/shoppingCart.png" /></a>
+		<a href="../warenkorb.jsp"><img id="shoppingCart" src="../Images/shoppingCart.png" /></a>
 	</div>
 	<div id="navigation">
 		<table>
