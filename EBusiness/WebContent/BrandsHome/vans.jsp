@@ -30,30 +30,11 @@
 	<div>
 		<h2>VANS</h2>
 	</div>
-	<div class="picture" id="1">
-		<a href="details.jsp?detailsId=1"><img src="Images/1.jpg"></a>
+	<div class="picture" id="12">
+		<a href="details.jsp?detailsId=12"><img src="../Images/12.jpg"></a>
 	</div>
-	<div class="picture" id="2">
-		<a href="details.jsp?detailsId=2"><img src="Images/2.jpg"></a>
+	<div class="picture" id="13">
+		<a href="details.jsp?detailsId=13"><img src="../Images/13.jpg"></a>
 	</div>
-	<div class="picture" id="3">
-		<a href="details.jsp?detailsId=3"><img src="Images/3.jpg"></a>
-	</div>
-	<div class="picture" id="4">
-		<a href="details.jsp?detailsId=4"><img src="Images/4.jpg"></a>
-	</div>
-	<div class="picture" id="5">
-		<a href="details.jsp?detailsId=5"><img src="Images/5.jpg"></a>
-	</div>
-	<div class="picture" id="6">
-		<a href="details.jsp?detailsId=6"><img src="Images/6.jpg"></a>
-	</div>
-	<div class="picture" id="7">
-		<a href="details.jsp?detailsId=7"><img src="Images/7.jpg"></a>
-	</div>
-	<div class="picture" id="8">
-		<a href="details.jsp?detailsId=8"><img src="Images/8.jpg"></a>
-	</div>
-
 </body>
 </html>
