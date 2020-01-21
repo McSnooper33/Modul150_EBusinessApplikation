@@ -41,6 +41,7 @@ $(document)
 
 function addProduct() {
 	console.log(currentSneaker);
+	alert("Produkt nun im Warenkorb");
 	var warenkorb = JSON.parse(window.localStorage.getItem("warenkorb"));
 	if (warenkorb === null || warenkorb[0] === null) {
 		warenkorb = [];
@@ -48,10 +49,9 @@ function addProduct() {
 	warenkorb.push(currentSneaker);
 	console.log(warenkorb);
 	window.localStorage.setItem("warenkorb", JSON.parse(warenkorb));
+};
 
-}
-
-/*$(document)
+$(document)
 		.ready(
 				function() {
 					var warenkorb = JSON.parse(window.localStorage
@@ -80,4 +80,3 @@ function addProduct() {
 					}
 					;
 				});
-*/

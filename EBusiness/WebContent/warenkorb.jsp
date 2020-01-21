@@ -33,20 +33,7 @@
 	<br>
 	<br>
 	AKTUELLER WARENKORB
-	<br>
-	<table class="warenkorbTableAll">
-		<tr>
-			<td><img src="Images/4.jpg" class="warenkorbTable" class="warenkorbBild" class="warenkorbTableAll"></td><td><div class="warenkorbTable" class="warenkorbTableAll">Ultra Boost</div></td><td><div class="warenkorbTable" class="warenkorbTableAll">250.00</div></td>
-		</tr>
-	</table>
-	<table class="warenkorbTableAll">
-		<tr>
-			<td><img src="Images/12.jpg" class="warenkorbTable" class="warenkorbBild" class="warenkorbTableAll"></td><td><div class="warenkorbTable" class="warenkorbTableAll">Vans Black</div></td><td><div class="warenkorbTable" class="warenkorbTableAll">89.00</div></td>
-		</tr>
-	</table>
-	<br>
-	<br>
-	<div id="warenkorbPreisTotal">Preis Total: 339.00</div>
+	<div id="warenkorbPreisTotal">Preis Total: </div>
 	<form action="bestellen.jsp">
 	<br>
 	<br>

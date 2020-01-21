@@ -31,10 +31,10 @@
 		<h2>PUMA</h2>
 	</div>
 	<div class="picture" id="9">
-		<a href="details.jsp?detailsId=9"><img src="../Images/9.jpg"></a>
+		<a href="../details.jsp?detailsId=9"><img src="../Images/9.jpg"></a>
 	</div>
 	<div class="picture" id="10">
-		<a href="details.jsp?detailsId=10"><img src="../Images/10.jpg"></a>
+		<a href="../details.jsp?detailsId=10"><img src="../Images/10.jpg"></a>
 	</div>
 </body>
 </html>
