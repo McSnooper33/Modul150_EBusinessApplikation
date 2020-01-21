@@ -12,9 +12,8 @@
 <body>
 	<h1>SNEAKERSHOP.CH</h1>
 	<div id="divShoppingCart">
-		<img id="shoppingCart" src="Images/shoppingCart.png" />
+		<a href="../warenkorb.jsp"><img id="shoppingCart" src="Images/shoppingCart.png" /></a>
 	</div>
-	<div id="navigation">
 		<div id="navigation">
 		<table>
 			<tr>
@@ -27,7 +26,6 @@
 				</td>
 			</tr>
 		</table>
-	</div>
 	</div>
 	<div>
 		<h2>ADIDAS</h2>
